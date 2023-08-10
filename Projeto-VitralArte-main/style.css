@@ -1,0 +1,111 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: #106EEA;
+}
+
+#header .comeco {
+    display: flex ;
+    justify-content: left;
+    color: white;
+}
+
+#header .comeco p {
+    display: flex;
+    margin: 5px 150px 5px 0px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+
+.email, .telefone {
+    font: 100 18px 'Open Sans';
+}
+
+.item {
+    font: 300 20px 'Open Sans';
+    margin: 0px 50px 5px 0px;
+    color: #000000;
+
+}
+
+.logo, .empresa {
+    font: 700 50px 'Poppins Bold';
+    margin: 10px 0 10px 0;
+}
+
+.primeira .titulo {
+    font: 600 32px 'Lucida', sans-serif;
+    color: black;
+}
+
+.primeira .texto, 
+.news .texto {
+    font: 500 23px 'Lucida', sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+
+.conteudo {
+    margin: -230px 0 350px 670px;
+    text-align: center;
+}
+
+.conteudo-2 .titulo .azul{
+    color: #106EEA;
+}
+
+.conteudo-2 .texto {
+    margin: 10px 700px 10px 0px;
+    text-align: justify;
+}
+
+.conteudo-2 .titulo {
+    margin-left: 75px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.caixas .imagem img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.caixa {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    background-color: white;
+    height: 170px;
+}
+
+.menu-barras {
+    display: none;
+}

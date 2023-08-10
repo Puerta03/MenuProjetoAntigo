@@ -1,0 +1,13 @@
+.menu-barras {
+    display: initial;
+}
+
+.lista {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 300px;
+}
